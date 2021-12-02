@@ -20,13 +20,12 @@ nav{
     color: rgb(236, 230, 204);
     text-transform: uppercase;
     letter-spacing: 5px;
-    font-size: 20px;
-
-
+    font-size: 15px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .dom{
     display: flex;
-    width: 30%;
+    width: 10%;
     justify-content: space-around;
 }
 
@@ -36,9 +35,14 @@ nav{
     letter-spacing: 3px;
     font-weight: bold;
     font-size: 14px;
-
-
-  
+    border-bottom: .5px white solid;
+    padding: 12px;
+    border-radius: 5px;
+}
+.dom a:hover{
+    background-color: white;
+    color: black;
+    transition: .2s ease-out;
 }
 
 .dom li{
